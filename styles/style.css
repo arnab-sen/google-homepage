@@ -1,0 +1,41 @@
+html {
+  background-color: black;
+}
+
+.centered {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  padding-top: 100px;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.buttons {
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+.hyperlink .text {
+  color: white;
+  font-family:  arial, sans-serif;
+  font-size: 14px;
+
+  vertical-align: top;
+  text-decoration: none;
+}
+
+.hyperlink .text:hover {
+  text-decoration: underline;
+}
+
+input {
+  //background-color: rgb(35, 39, 41);
+}
+
