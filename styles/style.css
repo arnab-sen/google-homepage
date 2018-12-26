@@ -2,6 +2,11 @@ html {
   background-color: black;
 }
 
+p {
+  color: silver;
+  font-family: arial, sans-serif;
+}
+
 .centered {
   display: block;
   width: 400px;
@@ -15,11 +20,26 @@ html {
 
 .search {
   margin-top: 10px;
+  background-color: rgb(35, 39, 41);
+  color: silver;
+  border: none;
+  width: 400px;
+  height: 35px;
+  border-radius: 50px;
+  text-indent: 15px;
 }
 
 .buttons {
-  padding-left: 100px;
+  padding-left: 175px;
   padding-top: 25px;
+}
+
+.button {
+  background-color: rgb(35, 39, 41);
+  color: silver;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .hyperlink .text {
